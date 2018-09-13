@@ -7,5 +7,5 @@ pipeline {
             sh 'mvn clean compile -DskipTests=true'
         }
       }
-
+    }
 }
