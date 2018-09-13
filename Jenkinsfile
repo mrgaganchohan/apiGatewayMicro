@@ -19,5 +19,11 @@ pipeline {
           sh 'mvn clean package'
         }
       }
+
+      stage('Deployment Stage') {
+        steps {
+          sh '/var/lib/jenkins/scripts/03_deploy_api_gateway.sh'
+        }
+      }
     }
 }
