@@ -7,5 +7,11 @@ pipeline {
             sh 'mvn clean compile -DskipTests=true'
         }
       }
+
+      stage('Testing Stage') {
+        steps {
+            sh 'mvn test'
+        }
+      }
     }
 }
