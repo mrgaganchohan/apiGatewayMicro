@@ -6,13 +6,13 @@ server:
 zuul:
   routes:
     usermicro:
-      path: /user/**
+      path: /usermicro/**
       serviceId: usermicro
     categorymicro:
-      path: /category/**
+      path: /categorymicro/**
       serviceId: categorymicro
     productmicro:
-      path: /product/**
+      path: /productmicro/**
       serviceId: productmicro
 eureka:
   instance:
