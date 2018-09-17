@@ -19,7 +19,6 @@ eureka:
     preferIpAddress: true
     lease-renewal-interval-in-seconds: 10
     health-check-url-path: /actuator/info
->>>>>>> fa4b3a7a65f432be0c2daab648ad53d1f3bc3ce0
   client:
     registerWithEureka: true
     fetchRegistry: true
