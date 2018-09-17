@@ -9,10 +9,10 @@ zuul:
       path: /user_micro/**
       serviceId: user_micro
     categorymicro:
-      path: /category/**
+      path: /categorymicro/**
       serviceId: categorymicro
     productmicro:
-      path: /product/**
+      path: /productmicro/**
       serviceId: productmicro
 eureka:
   instance:
