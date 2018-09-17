@@ -17,6 +17,8 @@ zuul:
 eureka:
   instance:
     preferIpAddress: true
+    lease-renewal-interval-in-seconds: 30
+    health-check-url-path: /actuator/health
   client:
     registerWithEureka: true
     fetchRegistry: true
