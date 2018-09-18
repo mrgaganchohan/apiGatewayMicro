@@ -12,8 +12,8 @@ zuul:
       path: /categorymicro/**
       serviceId: categorymicro
     productmicro:
-      path: /productmicro/**
-      serviceId: productmicro
+      path: /products_micro/**
+      serviceId: products_micro
   ignored-services: "*"
   sensitiveHeaders: Authorization,Cookie,Set-Cookie,User-Details
   ignored-headers: Access-Control-Allow-Headers,Access-Control-Allow-Methods,Access-Control-Allow-Origin,Access-Control-Max-Age
