@@ -1,6 +1,6 @@
 spring:
   application:
-    name: apigatewayserver
+    name: api_gateway_server
 server:
   port: 8765
 zuul:
@@ -9,8 +9,8 @@ zuul:
       path: /user_micro/**
       serviceId: user_micro
     categorymicro:
-      path: /categorymicro/**
-      serviceId: categorymicro
+      path: /category_micro/**
+      serviceId: category_micro
     productmicro:
       path: /products_micro/**
       serviceId: products_micro
